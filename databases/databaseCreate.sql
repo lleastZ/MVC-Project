@@ -2,12 +2,12 @@ CREATE TABLE `users`(
                         `id` INT AUTO_INCREMENT PRIMARY KEY,
                         `name` VARCHAR(128),
                         `login` VARCHAR(128) UNIQUE,
-                        `passsword` VARCHAR(128),
+                        `password` VARCHAR(128),
                         `role` VARCHAR(24) DEFAULT 'user'
 );
 
 CREATE TABLE `posts` (
-                         `id` INT AUTO_INCREMENT PRIMARY KEY,
+                         `id` INT AUTO_INCREMENT PRIMARY KEsY,
                          `user_id` INT,
                          `name` VARCHAR(128),
                          `descriptions` TEXT,
